@@ -1,0 +1,1 @@
+{"_id":"_design/outliers","language":"javascript","views":{"outliers":{"map":"function(doc) {\n  if(doc.outlier !== undefined){\n     emit(doc._id,null);\n  }\n  return null;\n}"},"okay":{"map":"function(doc) {\n  if(doc.outlier === undefined){\n     emit(doc._id,null);\n  }\n  return null;\n}"}}}
