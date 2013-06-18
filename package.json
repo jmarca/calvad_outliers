@@ -1,7 +1,7 @@
 {
   "name": "calvad_outliers",
   "version": "0.0.1",
-  "description": "Compute outliers from the imputation work for each CalVAD detector",
+  "description": "Compute and flag outliers from the imputation work for each CalVAD detector",
   "keywords": [],
   "author": "James E. Marca <jmarca@translab.its.uci.edu>",
   "repository": { "type": "git", "url": "git://github.com/jmarca/calvad_outliers.git" },
@@ -10,6 +10,8 @@
       "optimist": "",
       "async": "",
       "couch_set_state":"git://github.com/jmarca/couch_set_state.git",
+      "couchdb_get_views":"git://github.com/jmarca/couchdb_get_views.git",
+      "couchdb_put_view":"git://github.com/jmarca/couchdb_put_view.git",
       "calvad_compute_aadt":"git://github.com/jmarca/calvad_compute_aadt.git",
       "calvad_couch_cacher":"git://github.com/jmarca/calvad_couch_cacher.git",
       "calvad_reducer":"git://github.com/jmarca/calvad_reducer.git"
