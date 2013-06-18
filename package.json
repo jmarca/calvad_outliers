@@ -9,6 +9,8 @@
       "lodash": "",
       "optimist": "",
       "async": "",
+      "couch_set_state":"git://github.com/jmarca/couch_set_state.git",
+      "calvad_compute_aadt":"git://github.com/jmarca/calvad_compute_aadt.git",
       "calvad_couch_cacher":"git://github.com/jmarca/calvad_couch_cacher.git",
       "calvad_reducer":"git://github.com/jmarca/calvad_reducer.git"
   },
